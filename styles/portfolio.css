@@ -222,3 +222,28 @@ margin-bottom: 30px;
 .resume-download-cv{
     margin-top: 50px;
 }
+/* Footer */
+.footer {
+    display: flex;
+    padding: 130px 230px;
+    gap: 117px; 
+}
+.footer-column {
+    width: 50%;
+}
+.footer-column p {
+    font-size: 16px;
+    font-weight: normal;
+    color: #474747;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+footer input[type="text"], footer input[type="email"], footer textarea {
+    height: 64px;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+}
